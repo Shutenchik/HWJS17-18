@@ -8,12 +8,12 @@ $(function () {
 		$dropItem.hover(
 			function(){
 				$(this).children('.submenu')
-				.animate({height: '245px', backgroundColor: 'rgb(255, 80, 90)'}, 500)
+				.animate({height: '130px', backgroundColor: 'rgb(255, 80, 90)'}, 200)
 				.show();
 			},
 			function () {
 				$(this).children('.submenu')
-				.animate({height: '0', backgroundColor: 'rgba(225,75,125,0.75)'}, 500)
+				.animate({height: '0', backgroundColor: 'rgba(225,75,125,0.75)'}, 200)
 				.hide(0);
 			});
 	
